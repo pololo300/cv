@@ -1,0 +1,1 @@
+{"rule":"COMMA_AFTER_A_MONTH","sentence":"^\\QGeoNumerics, Castelldefels July - October, 2023 In a small company of expert a small company of expert geomaticians, my involvement was in a European project where my responsibility was ensuring compatibility of the company's libraries for Android platforms.\\E$"}
