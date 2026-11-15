@@ -1,0 +1,83 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\IfFileExists{spanish.ldf}{% Patrones de separación silábica en castellano disponibles
+	\usepackage[spanish]{babel}%
+}{% Sin patrones en castellano: desactivar guionado para no cortar con reglas inglesas
+	\hyphenpenalty=10000
+	\exhyphenpenalty=10000
+	\emergencystretch=1.5em
+}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Pol Ros Domènech} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{24 años \\ +34 638 92 69 61 \\ Girona / Barcelona}
+\address{\faEnvelopeSquare \hspace{0.25em} \href{mailto:polrosdomenech@gmail.com}{polrosdomenech@gmail.com} \hspace{0.25em} \faLinkedinSquare \hspace{0.25em}  \href{https://www.linkedin.com/in/pol-ros-domenech-436211187/}{pol-ros-domenech}  \hspace{0.25em} \faGithub \hspace{0.25em} \href{https://github.com/pololo300}{pololo300}  }%
+
+\begin{document}
+
+\begin{rSection}{Sobre mí}
+	Graduado en Matemáticas e Ingeniería Informática, con una gran pasión por aprender, resolver problemas y el pensamiento analítico. Después de terminar mis estudios y adquirir experiencia en prácticas, busco ahora mi primer puesto a jornada completa en el que aplicar mis conocimientos, ganar experiencia práctica y seguir construyendo una base sólida mientras desarrollo nuevas capacidades y continúo formándome.
+\end{rSection}
+
+
+\begin{rSection}{Formación académica}
+	{\bf Educación básica y bachillerato}, \href{https://www.bell-lloc.org/en/}{Bell-lloc del Pla} \hfill {2019}\\
+	Modalidad tecnológica junto con el \href{https://www.ibo.org/}{Diploma del Bachillerato Internacional (IB)}.
+
+	{\bf Matemáticas}, \href{https://web.ub.edu/en/home}{Universitat de Barcelona} \hfill {2019 - 2025}
+
+	{\bf Ingeniería Informática}, \href{https://www.upc.edu/en?set_language=en}{Universitat Politècnica de Catalunya} \hfill {2020 - 2025}\\
+	Especialidad en computación.
+\end{rSection}
+
+\begin{rSection}{EXPERIENCIA}
+	\textbf{\href{https://albcom.cs.upc.edu/}{ALBCOM-UPC}}, Barcelona \hfill {marzo - agosto de 2025} \\
+	Fui personal de apoyo a la investigación en el grupo ALBCOM de la UPC, donde he trabajado mientras completaba mi Trabajo de Fin de Grado sobre teoría de juegos algorítmica. Mi trabajo se centra principalmente en la teoría de grafos ---en particular, en los problemas de conectividad--- y en la teoría de juegos algorítmica. Este puesto ha sido una oportunidad única que me ha permitido adentrarme en el mundo de la investigación mientras terminaba la carrera.
+
+	\textbf{\href{https://serimag.com/en/}{Serimag}}, Sant Joan Despí \hfill {junio de 2024 - enero de 2025} \\
+	Automatización de procesos de extracción de datos de documentos mediante tecnologías avanzadas, incluidas redes neuronales y OCR (reconocimiento óptico de caracteres), dentro de arquitecturas síncronas. Como parte de este trabajo, desarrollamos un framework en Python para dar soporte a la automatización y al aprendizaje en arquitecturas complejas, con especial atención a los multiprocesadores y la sincronización. Fui el desarrollador principal de uno de los proyectos para ING.
+
+	\textbf{\href{https://www.geonumerics.es/}{GeoNumerics}}, Castelldefels \hfill {julio - octubre de 2023} \\
+	En una pequeña empresa de geómatas expertos, mi participación fue en un proyecto europeo en el que mi responsabilidad era garantizar la compatibilidad de las librerías de la empresa con las plataformas Android. Sin experiencia previa disponible en la empresa, me embarqué en un proceso de aprendizaje autodidacta para llevar a cabo esta tarea.
+
+\end{rSection}
+
+\begin{rSection}{Logros}
+	\textbf{\href{https://hackupc.com/}{HackUPC}}, Barcelona \hfill  mayo de 2021 y mayo de 2022 \\
+	Participante en la hackathon, donde gané el premio a la mejor aplicación universitaria por desarrollar enFIBat junto a dos amigos. En HackUPC 2022 nuestro equipo desarrolló un sitio web.
+
+	\textbf{\href{https://www.bath.ac.uk/events/the-international-symposium-on-algorithmic-game-theory-sagt-2025/}{The International Symposium on Algorithmic Game Theory}}, University of Bath \hfill {septiembre de 2025} \\
+	Participé para conocer a investigadores de referencia y explorar temas avanzados de teoría de juegos algorítmica, como el cálculo de equilibrios y el diseño de mecanismos algorítmico.
+\end{rSection}
+
+\begin{rSection}{IDIOMAS}
+	Catalán (nativo), Castellano (bilingüe), Inglés (sin titulación oficial; utilizado como lengua de trabajo en los últimos años. Comprensión lectora y auditiva excelentes, expresión escrita y oral intermedias).
+\end{rSection}
+
+\begin{rSection}{MOTIVACIONES}
+	Me apasiona aprender cosas nuevas e interesantes, sobre todo cuando tienen aplicaciones reales en el mundo. Busco un trabajo en el que pueda destacar y que además me plantee retos. Valoro la flexibilidad y también disfruto trabajando en equipo. Ahora que he terminado los estudios, quiero empezar a trabajar a jornada completa, profundizar en mis conocimientos y crecer profesionalmente en un puesto que me permita especializarme en un área concreta.
+\end{rSection}
+
+\begin{rSection}{HABILIDADES}
+	En los últimos años he desarrollado una base sólida en matemáticas, programación y computación gracias a proyectos tanto académicos como personales. Creo que mi principal fortaleza no es tener una habilidad técnica muy concreta, sino saber un poco de muchas áreas distintas.
+
+	En cuanto a lenguajes de programación, he trabajado principalmente con C y Python, pero también tengo experiencia con C++, ensamblador x86, Haskell, Prolog, SQL, OpenGL, Smalltalk, entre otros. También estoy acostumbrado a usar \LaTeX{} para redacción técnica y documentación.
+
+	Soy usuario habitual de Linux y llevo varios años trabajando con él, lo que además me llevó a elegir dos asignaturas de sistemas operativos durante la carrera. Asimismo, he adquirido conocimientos introductorios de tecnologías web, que amplié con un proyecto personal en el que construí y administré un servidor doméstico.
+
+	% En ciberseguridad, mi formación académica se ha limitado a los fundamentos matemáticos, principalmente relacionados con RSA. Sin embargo, en las últimas semanas he desarrollado un gran interés por la disciplina. Siguiendo recomendaciones generales de introducción disponibles en línea, empecé a practicar con el wargame Bandit de \href{https://overthewire.org/wargames/bandit/}{OverTheWire}, y actualmente estoy avanzando por Natas. En paralelo, también estoy estudiando con un par de libros populares (\href{https://nostarch.com/linux-basics-hackers-2nd-edition}{1}, \href{https://nostarch.com/hackingCD}{2}) y canales de YouTube para ampliar mi conocimiento del campo.
+
+	Me gusta asumir el liderazgo y enfrentarme a problemas difíciles, y me considero creativo y crítico en mi forma de trabajar. Estoy muy acostumbrado al autoaprendizaje y me motiva tener una carga de trabajo significativa. Por otro lado, tiendo a no gustar de las tareas monótonas o excesivamente protocolarias, y en ocasiones puedo impacientarme con ellas.
+\end{rSection}
+
+\begin{rSection}{VIDA PERSONAL}
+	Fuera de mis intereses profesionales, me gusta cocinar, pasar tiempo en la montaña, quedar con amigos, leer, el cine y conocer gente nueva. De 2014 a 2020 fui jugador federado de balonmano. Más allá del deporte, desde 2018 he compaginado diversos trabajos administrativos en el Hospital Santa Caterina, IAS, El Collel y la Residencia Salle-Bonanova.
+
+	Empecé a estudiar Ingeniería Informática en la UPC un año después de comenzar Matemáticas en la UB. Compaginar los estudios en dos universidades distintas fue un reto importante, pero reforzó mi capacidad de gestión del tiempo y de resolución de problemas. Además, he participado activamente en actividades de la facultad, por ejemplo en el equipo de \emph{castellers} o contribuyendo a la comunidad universitaria.
+\end{rSection}
+
+\end{document}
