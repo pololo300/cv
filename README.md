@@ -18,3 +18,14 @@ latexmk -pdf cv.tex cv-es.tex
 ```
 
 `cv-es.tex` uses `babel` with Spanish hyphenation patterns when `spanish.ldf` is installed; otherwise it disables hyphenation so Spanish words are not split following English rules.
+
+## Format
+
+Sources are kept wrapped at **80 columns** with [tex-fmt](https://github.com/wgunderwood/tex-fmt) (80 is its default wrap length, no config needed):
+
+```sh
+cargo install tex-fmt   # once
+tex-fmt cv.tex cv-es.tex
+```
+
+Lines that only consist of an unbreakable long URL inside `\href{...}` stay over 80 columns; tex-fmt reports them as "Line cannot be wrapped" and that is expected.

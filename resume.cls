@@ -25,6 +25,7 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
+\usepackage{needspace} % Required to keep section headings with their content
 
 \usepackage{hyperref}
 \hypersetup{
@@ -102,6 +103,7 @@
 
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
+  \par\needspace{5\baselineskip} % Never leave a section heading alone at the bottom of a page
   \sectionskip
   \MakeUppercase{{\bf #1}} % Section title
   \sectionlineskip
